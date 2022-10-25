@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "introdução-pandas"
+version = "0.1.0"
+description = "Projeto proposto BSI - IFC / Ler um Arquivo com o pandas e fazer um grafico com um dado"
+authors = ["gustavoDwsantos <gustavos200116@gmail.com>"]
+readme = "README.md"
+packages = [{include = "introdução_pandas"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.0"
+matplotlib = "^3.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
